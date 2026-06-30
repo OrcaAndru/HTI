@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Hometown Invitational//Website//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:hometown-invitational-2026@local
+DTSTAMP:20260630T120000Z
+DTSTART;TZID=America/Indiana/Indianapolis:20260917T160000
+DTEND;TZID=America/Indiana/Indianapolis:20260920T120000
+SUMMARY:The Hometown Invitational
+LOCATION:Indianapolis, Indiana
+DESCRIPTION:Private weekend itinerary for The Hometown Invitational. Main rounds: Friday at Meridian Hills and Saturday at Harrison Lake.
+END:VEVENT
+END:VCALENDAR
