@@ -224,3 +224,186 @@ dd { margin: 0; font-weight: 800; text-align: right; }
   .day-card { position: static; }
   h1 { font-size: clamp(3.5rem, 18vw, 6rem); }
 }
+/* ================================
+   HTI Full Visual Refresh
+   Clean cream / green / tan palette
+================================ */
+
+:root {
+  --ink: #1F2A24;
+  --muted: #5F6F66;
+  --paper: #F7EFE4;
+  --paper-2: #FFF9F0;
+  --green: #0B7652;
+  --green-2: #075F45;
+  --gold: #B68A4A;
+  --rust: #B68A4A;
+  --line: rgba(7, 95, 69, 0.14);
+  --shadow: 0 18px 42px rgba(31, 42, 36, 0.10);
+  --radius: 22px;
+}
+
+/* kill the heavy/odd hero treatment */
+.site-header {
+  background: #F7EFE4 !important;
+  color: var(--ink) !important;
+  min-height: auto !important;
+}
+
+.site-header::before,
+.site-header::after {
+  display: none !important;
+}
+
+/* header/nav */
+.nav,
+.nav a,
+.nav-links a,
+.brand,
+.brand small,
+.brand span {
+  color: var(--ink) !important;
+}
+
+.brand-mark {
+  background: #FFF9F0 !important;
+  border: 1px solid rgba(7, 95, 69, 0.16) !important;
+  box-shadow: none !important;
+}
+
+.brand-mark * {
+  background: var(--green) !important;
+}
+
+/* hero layout */
+.hero {
+  padding: 92px 0 72px !important;
+  max-width: 980px !important;
+}
+
+.hero .eyebrow,
+.hero-kicker,
+.eyebrow {
+  color: var(--gold) !important;
+  letter-spacing: 0.18em !important;
+}
+
+.hero h1,
+h1 {
+  color: var(--green) !important;
+  font-size: clamp(4.5rem, 10vw, 8.75rem) !important;
+  line-height: 0.9 !important;
+  letter-spacing: -0.08em !important;
+  max-width: 980px !important;
+}
+
+.hero p,
+.hero .hero-dates,
+.hero .lead {
+  color: var(--ink) !important;
+}
+
+.hero .hero-dates {
+  font-size: clamp(1.4rem, 2vw, 1.85rem) !important;
+  font-weight: 800 !important;
+  margin-top: 18px !important;
+}
+
+.hero .lead {
+  max-width: 720px !important;
+  font-size: 1.05rem !important;
+  line-height: 1.65 !important;
+}
+
+/* buttons */
+.btn,
+.button,
+a.btn {
+  background: var(--green) !important;
+  color: #FFF9F0 !important;
+  border: 1px solid var(--green) !important;
+  box-shadow: none !important;
+}
+
+.btn:hover,
+.button:hover,
+a.btn:hover {
+  background: var(--green-2) !important;
+  border-color: var(--green-2) !important;
+}
+
+.btn.secondary,
+.btn.outline,
+a.secondary,
+a.btn.secondary,
+.hero-actions a:nth-child(2) {
+  background: transparent !important;
+  color: var(--green) !important;
+  border: 1px solid rgba(7, 95, 69, 0.35) !important;
+}
+
+.btn.secondary:hover,
+.btn.outline:hover,
+a.secondary:hover,
+a.btn.secondary:hover,
+.hero-actions a:nth-child(2):hover {
+  background: rgba(11, 118, 82, 0.08) !important;
+  color: var(--green-2) !important;
+}
+
+/* simplify stat cards */
+.stats {
+  margin-top: 34px !important;
+  max-width: 760px !important;
+}
+
+.stats > div {
+  background: #FFF9F0 !important;
+  border: 1px solid rgba(7, 95, 69, 0.14) !important;
+  color: var(--ink) !important;
+  box-shadow: none !important;
+}
+
+.stats strong {
+  color: var(--ink) !important;
+}
+
+.stats span {
+  color: var(--muted) !important;
+}
+
+/* remove extra busy pieces */
+.countdown,
+.filters {
+  display: none !important;
+}
+
+/* page sections */
+body {
+  background: #F7EFE4 !important;
+  color: var(--ink) !important;
+}
+
+.section,
+main {
+  background: #F7EFE4 !important;
+}
+
+.card,
+.course-card,
+.dining-card,
+.logistics-card,
+.schedule-card,
+.panel {
+  background: #FFF9F0 !important;
+  border: 1px solid rgba(7, 95, 69, 0.14) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+/* remove red/orange accents sitewide */
+[style*="#F13B18"],
+[style*="#f13b18"],
+[style*="red"],
+[style*="orange"] {
+  color: var(--gold) !important;
+}
