@@ -1,14 +1,14 @@
 :root {
-  --ink: #1f2a24;
-  --muted: #647066;
-  --paper: #f7f1e6;
-  --paper-2: #fffaf0;
-  --green: #253f2f;
-  --green-2: #345a42;
-  --gold: #c9973f;
-  --rust: #8f4e2e;
-  --line: rgba(31, 42, 36, 0.16);
-  --shadow: 0 24px 60px rgba(31, 42, 36, 0.16);
+  --ink: #1F2A24;
+  --muted: #5F6F66;
+  --paper: #F8E3D1;
+  --paper-2: #FFF3E5;
+  --green: #0B7652;
+  --green-2: #075F45;
+  --gold: #F13B18;
+  --rust: #C92F17;
+  --line: rgba(7, 95, 69, 0.16);
+  --shadow: 0 24px 60px rgba(7, 95, 69, 0.18);
   --radius: 24px;
 }
 
