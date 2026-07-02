@@ -541,3 +541,48 @@ main {
     display: none;
   }
 }
+/* Course card sizing fix */
+.flip-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 22px !important;
+}
+
+.flip-card,
+.flip-card-inner,
+.flip-card-front,
+.flip-card-back {
+  min-height: 230px !important;
+}
+
+.flip-card-front {
+  padding: 24px !important;
+}
+
+.flip-card-front h3 {
+  font-size: 1.35rem !important;
+  line-height: 1.1 !important;
+}
+
+.flip-card-front p {
+  font-size: 0.95rem !important;
+  line-height: 1.45 !important;
+}
+
+.flip-card-back span {
+  font-size: 1.15rem !important;
+}
+
+/* Keep mobile stacked */
+@media (max-width: 820px) {
+  .flip-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .flip-card,
+  .flip-card-inner,
+  .flip-card-front,
+  .flip-card-back {
+    min-height: 260px !important;
+  }
+}
