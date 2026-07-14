@@ -1168,3 +1168,30 @@ main {
   position: relative !important;
   z-index: 2 !important;
 }
+/* Force HTI hero watermark visible */
+.hti-hero {
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.hti-hero-inner {
+  position: relative !important;
+}
+
+.hti-watermark-logo {
+  display: block !important;
+  position: absolute !important;
+  right: -70px !important;
+  top: 20px !important;
+  width: 520px !important;
+  max-width: 40vw !important;
+  height: auto !important;
+  opacity: 0.08 !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+.hti-hero-content {
+  position: relative !important;
+  z-index: 2 !important;
+}
