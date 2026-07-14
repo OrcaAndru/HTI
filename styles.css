@@ -1195,3 +1195,15 @@ main {
   position: relative !important;
   z-index: 2 !important;
 }
+/* Reduce space between nav/header and hero text */
+.hti-hero {
+  padding-top: 48px !important;
+}
+
+.hti-hero-inner {
+  margin-top: 0 !important;
+}
+
+.hti-watermark-logo {
+  top: -10px !important;
+}
