@@ -846,3 +846,131 @@ main {
     font-size: 1rem;
   }
 }
+/* ================================
+   HTI Option 3 Layout Fix
+   Paste at VERY BOTTOM of styles.css
+================================ */
+
+.hero-option-three {
+  position: relative !important;
+  width: min(1180px, calc(100% - 48px)) !important;
+  max-width: 1180px !important;
+  margin: 0 auto !important;
+  padding: 110px 0 90px !important;
+  display: block !important;
+  overflow: visible !important;
+}
+
+.hero-option-three .hero-content {
+  position: relative !important;
+  z-index: 2 !important;
+  max-width: 860px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.hero-option-three .hero-watermark {
+  position: absolute !important;
+  right: -40px !important;
+  top: 120px !important;
+  width: 430px !important;
+  max-width: 36vw !important;
+  opacity: 0.08 !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+.hero-option-three .hero-watermark img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+.hero-option-three .eyebrow {
+  color: #B68A4A !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+  margin: 0 0 24px !important;
+}
+
+.hero-option-three h1 {
+  color: #0B7652 !important;
+  font-size: clamp(4.5rem, 8.6vw, 8rem) !important;
+  line-height: 0.92 !important;
+  letter-spacing: -0.07em !important;
+  margin: 0 0 28px !important;
+  max-width: 900px !important;
+}
+
+.hero-option-three .hero-location {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  margin: 0 0 24px !important;
+  color: #1F2A24 !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+}
+
+.hero-option-three .hero-location-icon {
+  width: 42px !important;
+  height: auto !important;
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+.hero-option-three .hero-dates {
+  color: #1F2A24 !important;
+  font-size: clamp(1.55rem, 2vw, 2rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.2 !important;
+  margin: 0 0 26px !important;
+  max-width: 900px !important;
+}
+
+.hero-option-three .hero-lead {
+  max-width: 720px !important;
+  color: #1F2A24 !important;
+  font-size: 1.05rem !important;
+  line-height: 1.65 !important;
+  margin: 0 0 34px !important;
+}
+
+.hero-option-three .hero-actions {
+  display: flex !important;
+  gap: 18px !important;
+  flex-wrap: wrap !important;
+}
+
+/* hide old hero pieces */
+.hero-option-three .stats,
+.hero-option-three .countdown,
+.hero-option-three .filters {
+  display: none !important;
+}
+
+/* Mobile */
+@media (max-width: 820px) {
+  .hero-option-three {
+    width: min(100% - 32px, 1180px) !important;
+    padding: 72px 0 56px !important;
+  }
+
+  .hero-option-three .hero-watermark {
+    display: none !important;
+  }
+
+  .hero-option-three h1 {
+    font-size: clamp(3.8rem, 18vw, 5.6rem) !important;
+  }
+
+  .hero-option-three .hero-location-icon {
+    width: 34px !important;
+  }
+
+  .hero-option-three .hero-dates {
+    font-size: 1.35rem !important;
+  }
+}
