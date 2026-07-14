@@ -647,3 +647,36 @@ main {
     height: 62px;
   }
 }
+/* HTI Logo Treatment */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-logo {
+  width: 58px;
+  height: 76px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  background: transparent !important;
+  border-radius: 0;
+}
+
+.brand > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .brand {
+    gap: 12px;
+  }
+
+  .brand-logo {
+    width: 46px;
+    height: 62px;
+  }
+}
