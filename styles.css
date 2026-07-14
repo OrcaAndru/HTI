@@ -974,3 +974,170 @@ main {
     font-size: 1.35rem !important;
   }
 }
+/* ================================
+   HTI Hero - Clean Isolated Version
+   This avoids old .hero styling conflicts
+================================ */
+
+.hti-hero {
+  position: relative !important;
+  background: #F7EFE4 !important;
+  overflow: hidden !important;
+  padding: 96px 0 92px !important;
+}
+
+.hti-hero-inner {
+  position: relative !important;
+  width: min(1180px, calc(100% - 48px)) !important;
+  margin: 0 auto !important;
+}
+
+.hti-hero-content {
+  position: relative !important;
+  z-index: 2 !important;
+  max-width: 900px !important;
+}
+
+.hti-eyebrow {
+  margin: 0 0 24px !important;
+  color: #B68A4A !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.18em !important;
+  text-transform: uppercase !important;
+}
+
+.hti-hero-title {
+  margin: 0 0 30px !important;
+  max-width: 900px !important;
+  color: #0B7652 !important;
+  font-size: clamp(4.5rem, 8.5vw, 8rem) !important;
+  line-height: 0.92 !important;
+  letter-spacing: -0.075em !important;
+  font-weight: 900 !important;
+}
+
+.hti-location {
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px !important;
+  margin: 0 0 24px !important;
+  color: #1F2A24 !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+}
+
+.hti-location-logo {
+  width: 42px !important;
+  height: auto !important;
+  display: block !important;
+  flex-shrink: 0 !important;
+}
+
+.hti-hero-dates {
+  margin: 0 0 24px !important;
+  color: #1F2A24 !important;
+  font-size: clamp(1.55rem, 2vw, 2rem) !important;
+  line-height: 1.2 !important;
+  font-weight: 850 !important;
+}
+
+.hti-hero-copy {
+  margin: 0 0 34px !important;
+  max-width: 760px !important;
+  color: #1F2A24 !important;
+  font-size: 1.08rem !important;
+  line-height: 1.65 !important;
+}
+
+.hti-hero-actions {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 18px !important;
+}
+
+.hti-btn {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 56px !important;
+  padding: 0 28px !important;
+  border-radius: 999px !important;
+  font-weight: 850 !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+}
+
+.hti-btn.primary {
+  background: #0B7652 !important;
+  color: #FFF9F0 !important;
+  border: 1px solid #0B7652 !important;
+}
+
+.hti-btn.primary:hover {
+  background: #075F45 !important;
+  border-color: #075F45 !important;
+}
+
+.hti-btn.secondary {
+  background: transparent !important;
+  color: #0B7652 !important;
+  border: 1px solid rgba(11, 118, 82, 0.35) !important;
+}
+
+.hti-btn.secondary:hover {
+  background: rgba(11, 118, 82, 0.08) !important;
+}
+
+.hti-watermark-logo {
+  position: absolute !important;
+  right: -20px !important;
+  top: 34px !important;
+  width: 440px !important;
+  max-width: 34vw !important;
+  opacity: 0.075 !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+/* Hide old hero pieces if they still exist somewhere */
+.stats,
+.countdown,
+.filters {
+  display: none !important;
+}
+
+/* Mobile */
+@media (max-width: 820px) {
+  .hti-hero {
+    padding: 72px 0 60px !important;
+  }
+
+  .hti-hero-inner {
+    width: min(100% - 32px, 1180px) !important;
+  }
+
+  .hti-watermark-logo {
+    display: none !important;
+  }
+
+  .hti-hero-title {
+    font-size: clamp(3.7rem, 17vw, 5.5rem) !important;
+  }
+
+  .hti-location {
+    font-size: 1.05rem !important;
+  }
+
+  .hti-location-logo {
+    width: 34px !important;
+  }
+
+  .hti-hero-dates {
+    font-size: 1.35rem !important;
+  }
+
+  .hti-hero-copy {
+    font-size: 1rem !important;
+  }
+}
