@@ -2,61 +2,68 @@ const tripStart = new Date('2026-09-17T16:00:00-04:00');
 
 const dayDetails = {
   thu: {
-    date: 'Thursday, September 17',
-    title: 'Arrivals',
-    subtitle: 'Get to Indianapolis, settle in, and ease into the weekend.',
-    events: [
-      {
-        time: 'TBD PM',
-        type: 'logistics',
-        label: 'Arrival',
-        title: 'Arrivals / Hotel Check-In',
-        location: 'Hotel Broad Ripple',
-        body: 'Room block is set. Indicate interest in a room on the registration form.'
-      },
-      {
-        time: 'TBD',
-        type: 'meal',
-        label: 'Welcome',
-        title: 'Welcome Plans',
-        location: 'TBD',
-        body: 'Light Thursday plans will be finalized around arrival times and group size.'
-      }
-    ]
-  },
+  date: 'Thursday, September 17',
+  title: 'Practice & Welcome',
+  subtitle: 'Optional practice golf followed by the official welcome dinner.',
+  events: [
+    {
+      time: '1:00 PM',
+      type: 'golf',
+      label: 'Optional · Practice Round',
+      title: 'Meridian Hills Country Club',
+      location: '7099 Spring Mill Rd',
+      body: 'Optional practice round at Meridian Hills Country Club. Registration is required to participate.'
+    },
+    {
+      time: '7:00 PM',
+      type: 'meal',
+      label: 'Welcome Dinner & Drinks',
+      title: "Fat Dan's",
+      location: '5410 N College Ave',
+      body: 'Official welcome dinner and drinks to kick off the Hometown Invitational.'
+    }
+  ]
+},
 
-  fri: {
-    date: 'Friday, September 18',
-    title: 'Opening Loop',
-    subtitle: 'Two rounds at Meridian Hills with drinks and dinner on property.',
-    events: [
-      {
-        time: '7:00 AM',
-        type: 'golf',
-        label: 'Golf · Morning Tee Times',
-        title: 'Meridian Hills Country Club',
-        location: '7099 Spring Mill Rd',
-        body: 'Morning tee times: 7:00, 7:10, 7:20, and 7:30 AM.'
-      },
-      {
-        time: '1:00 PM',
-        type: 'golf',
-        label: 'Golf · Afternoon Tee Times',
-        title: 'Meridian Hills Country Club',
-        location: '7099 Spring Mill Rd',
-        body: 'Afternoon tee times: 1:00, 1:10, 1:20, and 1:30 PM.'
-      },
-      {
-        time: 'After Golf',
-        type: 'meal',
-        label: 'Drinks & Dinner',
-        title: 'Post-Round Drinks and Dinner',
-        location: 'Meridian Hills Country Club',
-        body: 'Drinks, scorecards, side bets, leaderboard update, and dinner will all be on property at Meridian Hills.'
-      }
-    ]
-  },
-
+fri: {
+  date: 'Friday, September 18',
+  title: 'Opening Day',
+  subtitle: 'Thirty-six holes at Meridian Hills, followed by dinner and simulators on property.',
+  events: [
+    {
+      time: '6:00 AM',
+      type: 'golf',
+      label: 'Warm-Up',
+      title: 'Driving Range Opens',
+      location: 'Meridian Hills Country Club',
+      body: "The driving range opens at 6:00 AM. A light breakfast will be available in the Men's Locker Room. Each participant will have an assigned locker."
+    },
+    {
+      time: '7:00 AM',
+      type: 'golf',
+      label: 'Golf · Morning Round',
+      title: 'Meridian Hills Country Club',
+      location: '7099 Spring Mill Rd',
+      body: 'Morning tee times: 7:00, 7:10, 7:20, and 7:30 AM.'
+    },
+    {
+      time: '1:00 PM',
+      type: 'golf',
+      label: 'Golf · Afternoon Round',
+      title: 'Meridian Hills Country Club',
+      location: '7099 Spring Mill Rd',
+      body: 'Afternoon tee times: 1:00, 1:10, 1:20, and 1:30 PM.'
+    },
+    {
+      time: 'After Golf',
+      type: 'meal',
+      label: 'Dinner & Simulators',
+      title: 'Fairways Bar',
+      location: 'Meridian Hills Country Club',
+      body: 'Dinner will be served in Fairways Bar. The golf simulators will be open after the rounds.'
+    }
+  ]
+},
   sat: {
     date: 'Saturday, September 19',
     title: 'Main Event',
