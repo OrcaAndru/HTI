@@ -36,7 +36,7 @@ fri: {
       label: 'Warm-Up',
       title: 'Driving Range Opens',
       location: 'Meridian Hills Country Club',
-      body: "The driving range opens at 6:00 AM. A light breakfast will be available in the Men's Locker Room. Each participant will have an assigned locker."
+      body: "The driving range opens at 7:30 AM. A light breakfast will be available in the Men's Locker Room. Each participant will have an assigned locker."
     },
     {
       time: '9:00 AM',
@@ -44,7 +44,7 @@ fri: {
       label: 'Golf · Morning Round',
       title: 'Meridian Hills Country Club',
       location: '7099 Spring Mill Rd',
-      body: 'Morning tee times: 7:00, 7:10, 7:20, and 7:30 AM.'
+      body: 'Morning tee times: 9:00, 9:10, 9:20, and 9:30 AM.'
     },
     {
       time: '2:00 PM',
@@ -52,7 +52,7 @@ fri: {
       label: 'Golf · Afternoon Round',
       title: 'Meridian Hills Country Club',
       location: '7099 Spring Mill Rd',
-      body: 'Afternoon tee times: 1:00, 1:10, 1:20, and 1:30 PM.'
+      body: 'Afternoon tee times: 2:00, 2:10, 2:20, and 2:30 PM.'
     },
     {
       time: 'After Golf',
@@ -114,7 +114,7 @@ fri: {
         type: 'meal',
         label: 'Closing Dinner',
         title: 'Closing Dinner & Awards',
-        location: 'Harry and Izzy's - The Parlor Room',
+        location: "Harry and Izzy's - The Parlor Room",
         body: 'Final leaderboard, awards, weekend recap, and the official close of the first Hometown Invitational.'
       }
     ]
