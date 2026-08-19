@@ -31,7 +31,7 @@ fri: {
   subtitle: 'Thirty-six holes at Meridian Hills, followed by dinner and simulators on property.',
   events: [
     {
-      time: '6:00 AM',
+      time: '7:30 AM',
       type: 'golf',
       label: 'Warm-Up',
       title: 'Driving Range Opens',
@@ -39,7 +39,7 @@ fri: {
       body: "The driving range opens at 6:00 AM. A light breakfast will be available in the Men's Locker Room. Each participant will have an assigned locker."
     },
     {
-      time: '7:00 AM',
+      time: '9:00 AM',
       type: 'golf',
       label: 'Golf · Morning Round',
       title: 'Meridian Hills Country Club',
@@ -47,7 +47,7 @@ fri: {
       body: 'Morning tee times: 7:00, 7:10, 7:20, and 7:30 AM.'
     },
     {
-      time: '1:00 PM',
+      time: '2:00 PM',
       type: 'golf',
       label: 'Golf · Afternoon Round',
       title: 'Meridian Hills Country Club',
@@ -86,7 +86,7 @@ fri: {
         body: 'Breakfast will be provided on the bus before the Saturday round.'
       },
       {
-        time: '8:30 AM',
+        time: '9:00 AM',
         type: 'golf',
         label: 'Golf · Main Event',
         title: 'Harrison Lake Country Club',
