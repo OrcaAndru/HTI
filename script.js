@@ -114,7 +114,7 @@ fri: {
         type: 'meal',
         label: 'Closing Dinner',
         title: 'Closing Dinner & Awards',
-        location: 'Time and location TBD',
+        location: 'Harry and Izzy's - The Parlor Room',
         body: 'Final leaderboard, awards, weekend recap, and the official close of the first Hometown Invitational.'
       }
     ]
