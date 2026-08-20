@@ -110,7 +110,7 @@ fri: {
         body: 'College football, drinks, and post-round hang after returning to Indy.'
       },
       {
-        time: 'TBD',
+        time: '7:00pm',
         type: 'meal',
         label: 'Closing Dinner',
         title: 'Closing Dinner & Awards',
