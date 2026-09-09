@@ -74,8 +74,8 @@ fri: {
         type: 'logistics',
         label: 'Bus Departure',
         title: 'Depart for Harrison Lake',
-        location: 'Location TBD',
-        body: 'Bus departs at 7:00 AM. Exact pickup location will be finalized closer to the event.'
+        location: 'Meridian Hills Country Club',
+        body: 'Bus departs at 7:00 AM from Meridian Hills Country Club parking lot.'
       },
       {
         time: 'On the Bus',
@@ -91,7 +91,7 @@ fri: {
         label: 'Golf · Main Event',
         title: 'Harrison Lake Country Club',
         location: '588 S. Country Club Rd, Columbus',
-        body: 'Saturday tee times: 8:30, 8:40, 8:50, and 9:00 AM.'
+        body: 'Saturday tee times: 9:00, 9:10, 9:20, and 9:30 AM.'
       },
       {
         time: 'After Golf',
