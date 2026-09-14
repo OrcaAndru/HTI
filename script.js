@@ -47,12 +47,12 @@ fri: {
       body: 'Morning tee times: 9:00, 9:10, 9:20, and 9:30 AM.'
     },
     {
-      time: '2:00 PM',
+      time: '1:30 PM',
       type: 'golf',
       label: 'Golf · Afternoon Round',
       title: 'Meridian Hills Country Club',
       location: '7099 Spring Mill Rd',
-      body: 'Afternoon tee times: 2:00, 2:10, 2:20, and 2:30 PM.'
+      body: 'Afternoon tee times: 1:30, 1:40, 1:50, and 2:00 PM.'
     },
     {
       time: 'After Golf',
