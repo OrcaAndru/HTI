@@ -1212,3 +1212,395 @@ main {
   font-weight: 800 !important;
   letter-spacing: 0.01em;
 }
+/* ================================
+   HTI Competition
+================================ */
+
+.competition-section {
+  background: #F7EFE4;
+}
+
+.competition-intro {
+  max-width: 900px;
+  margin-bottom: 90px;
+}
+
+.competition-intro h2,
+.competition-heading h3,
+.competition-day-heading h3,
+.house-rules h3 {
+  margin: 8px 0 18px;
+  color: #1F2A24;
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+}
+
+.competition-lead {
+  max-width: 760px;
+  color: #5F6F66;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+.competition-scoreline {
+  display: flex;
+  gap: 18px;
+  margin-top: 36px;
+}
+
+.competition-scoreline > div {
+  min-width: 180px;
+  padding: 24px 28px;
+  background: #FFF9F0;
+  border: 1px solid rgba(7, 95, 69, 0.14);
+  border-radius: 18px;
+}
+
+.competition-scoreline strong {
+  display: block;
+  color: #0B7652;
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.competition-scoreline span {
+  display: block;
+  margin-top: 8px;
+  color: #5F6F66;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+}
+
+.competition-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 34px;
+}
+
+.competition-heading > p {
+  max-width: 520px;
+  color: #5F6F66;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+
+/* Teams */
+
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 26px;
+  margin-bottom: 100px;
+}
+
+.team-card {
+  overflow: hidden;
+  background: #FFF9F0;
+  border: 1px solid rgba(7, 95, 69, 0.14);
+  border-radius: 22px;
+  box-shadow: 0 18px 42px rgba(31, 42, 36, 0.08);
+}
+
+.team-card-header {
+  padding: 28px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: #0B7652;
+  color: #FFF9F0;
+}
+
+.team-card-header p {
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.team-card-header h3 {
+  margin: 0;
+  color: #FFF9F0;
+  font-size: 2.4rem;
+}
+
+.team-card-header > span {
+  font-size: 0.75rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.team-player {
+  min-height: 64px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgba(7, 95, 69, 0.12);
+  font-weight: 700;
+}
+
+.team-player:first-child {
+  border-top: 0;
+}
+
+.team-player.captain {
+  background: rgba(182, 138, 74, 0.08);
+}
+
+.captain-badge {
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: #EFE1BF;
+  color: #6C5226;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
+/* Competition Days */
+
+.competition-day {
+  margin: 0 0 100px;
+}
+
+.competition-day-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  border-bottom: 1px solid rgba(7, 95, 69, 0.15);
+  padding-bottom: 22px;
+}
+
+.competition-day-heading h3 {
+  margin-bottom: 0;
+}
+
+.points-badge {
+  padding: 10px 17px;
+  border-radius: 999px;
+  background: #0B7652;
+  color: #FFF9F0;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.competition-day-copy {
+  max-width: 760px;
+  margin: 25px 0 36px;
+  color: #5F6F66;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+/* Matches */
+
+.match-session {
+  margin-top: 26px;
+  overflow: hidden;
+  background: #FFF9F0;
+  border: 1px solid rgba(7, 95, 69, 0.14);
+  border-radius: 22px;
+}
+
+.match-session-heading {
+  padding: 24px 28px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.match-session-heading h4,
+.singles-placeholder h4,
+.format-card h4 {
+  margin: 4px 0 0;
+  color: #1F2A24;
+  font-size: 1.8rem;
+}
+
+.match-session-heading > span {
+  color: #5F6F66;
+  font-weight: 700;
+}
+
+.match-label,
+.format-day {
+  margin: 0;
+  color: #B68A4A;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.match-description {
+  margin: 0;
+  padding: 0 28px 24px;
+  color: #5F6F66;
+}
+
+.match-row {
+  display: grid;
+  grid-template-columns: 85px 1fr 55px 1fr auto;
+  gap: 18px;
+  align-items: center;
+  min-height: 68px;
+  padding: 0 28px;
+  border-top: 1px solid rgba(7, 95, 69, 0.11);
+}
+
+.match-time {
+  color: #B68A4A;
+  font-weight: 800;
+}
+
+.match-team {
+  color: #1F2A24;
+  font-weight: 700;
+}
+
+.match-vs {
+  color: #8B8E87;
+  text-align: center;
+  font-style: italic;
+}
+
+.match-number {
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #EFE7D8;
+  color: #6C5226;
+  font-size: 0.65rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.singles-placeholder {
+  padding: 34px;
+  background: #FFF9F0;
+  border: 1px solid rgba(7, 95, 69, 0.14);
+  border-radius: 22px;
+}
+
+.singles-placeholder p:last-child {
+  color: #5F6F66;
+}
+
+
+/* Formats */
+
+.formats-heading {
+  margin-top: 20px;
+}
+
+.formats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 90px;
+}
+
+.format-card {
+  min-height: 310px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  background: #FFF9F0;
+  border: 1px solid rgba(7, 95, 69, 0.14);
+  border-radius: 22px;
+}
+
+.format-card p:not(.format-day) {
+  color: #5F6F66;
+  line-height: 1.65;
+}
+
+.format-card strong {
+  margin-top: auto;
+  color: #0B7652;
+}
+
+
+/* House Rules */
+
+.house-rules {
+  padding: 46px;
+  background: #0B7652;
+  color: #FFF9F0;
+  border-radius: 24px;
+}
+
+.house-rules .eyebrow {
+  color: #E0B66C;
+}
+
+.house-rules h3 {
+  color: #FFF9F0;
+  font-size: clamp(2.6rem, 5vw, 4.5rem);
+}
+
+.house-rules > p:not(.eyebrow) {
+  max-width: 800px;
+  color: rgba(255, 249, 240, 0.88);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.house-rules .clincher {
+  margin-top: 30px;
+  font-size: 1.35rem !important;
+}
+
+.house-rules .clincher strong {
+  color: #FFF9F0;
+}
+
+
+/* Responsive */
+
+@media (max-width: 850px) {
+  .teams-grid,
+  .formats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .competition-heading {
+    display: block;
+  }
+
+  .competition-heading > p {
+    margin-top: 10px;
+  }
+
+  .match-row {
+    grid-template-columns: 65px 1fr;
+    gap: 8px 16px;
+    padding: 16px 22px;
+  }
+
+  .match-vs {
+    display: none;
+  }
+
+  .match-number {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .competition-scoreline {
+    flex-wrap: wrap;
+  }
+}
