@@ -7,7 +7,7 @@ const dayDetails = {
   subtitle: 'Optional practice golf followed by the official welcome dinner.',
   events: [
     {
-      time: '1:00 PM',
+      time: '1:30 PM',
       type: 'golf',
       label: 'Optional · Practice Round',
       title: 'Meridian Hills Country Club',
@@ -39,12 +39,12 @@ fri: {
       body: "The driving range opens at 7:30 AM. A light breakfast will be available in the Men's Locker Room. Each participant will have an assigned locker."
     },
     {
-      time: '9:00 AM',
+      time: '8:30 AM',
       type: 'golf',
       label: 'Golf · Morning Round',
       title: 'Meridian Hills Country Club',
       location: '7099 Spring Mill Rd',
-      body: 'Morning tee times: 9:00, 9:10, 9:20, and 9:30 AM.'
+      body: 'Morning tee times: 8:30, 8:40, 8:50, and 9:00 AM.'
     },
     {
       time: '1:30 PM',
